@@ -11,3 +11,64 @@ body {
 }
 
 /* place your styles below */
+
+#search-tools {
+	display: flex;
+	margin : 0 auto;
+	justify-content: center;
+}
+
+#display {
+	margin: 0 auto;
+	max-width: 500px;
+	text-align: left;
+}
+
+#display img {
+	display: block;
+	margin-bottom: 80;
+	width: 270px;
+	height: 300px;
+	float: left;
+}
+
+#auto-suggestions {
+	display: none;
+	border: 1px solid grey;
+	margin: 0 auto;
+	max-width: 15%;
+	justify-content: center;
+
+}
+
+.suggestion {
+	background-color: transparent;
+	border: none;
+}
+
+.suggestion:focus {
+	outline:none;
+}
+
+.suggestion:hover {
+	color: #3399ff;
+}
+
+#title {
+	background-color: #EAEAE8;
+	margin: 0;
+}
+
+#title h1 {
+	display: flex;
+	justify-content: left;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 2.5em;
+
+}
+
+#title h3 {
+	display: flex;
+	justify-content: left;
+}
+
